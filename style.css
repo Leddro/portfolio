@@ -2,13 +2,30 @@ body {
     background-color: #BFD1E5;
 }
 
+
+
 #nome {
     font-weight: bold;
     font-family: 'Comic Sans MS', cursive;
     font-size: 2em;
 }
 
-.listas{
+
+
+.listas {
     line-height: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    main-height: 100vh;
+    margin: 0;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
 }
